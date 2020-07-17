@@ -1,0 +1,43 @@
+body
+{ 
+	position: relative;
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.4;
+	background-color: #141414;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+} 
+
+#main
+{	
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-size: 48px;
+	text-align: center;
+	color: #FFFFFF;
+	z-index: 1;
+}
+
+#main p 
+{
+	margin: 0;
+}
+
+#icons
+{
+	margin-top: 16px;
+}
+
+#particles-js
+{
+	position: absolute;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
